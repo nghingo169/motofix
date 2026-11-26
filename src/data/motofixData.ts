@@ -58,7 +58,9 @@ export interface PartnerWorkshop {
   mapY: number;
 }
 
-export const HERO_IMAGE_PATH = '/src/assets/images/hero_campus_rescue_1795667026487.jpg';
+const imageBase = `${import.meta.env.BASE_URL}src/assets/images/`;
+
+export const HERO_IMAGE_PATH = `${imageBase}hero_campus_rescue_1795667026487.jpg`;
 
 export const SERVICES: ServiceOption[] = [
   {
@@ -299,7 +301,7 @@ export const RESPONDERS: Record<'male' | 'female', ResponderProfile> = {
     badgeId: 'MF-Z1-024',
     vehiclePlate: '59-X1 402.18',
     vehicleModel: 'Honda Wave RSX — Xe trực cứu hộ',
-    photo: '/src/assets/images/responder_portrait_nam_1795667027342.jpg',
+    photo: `${imageBase}responder_portrait_nam_1795667027342.jpg`,
     completedJobs: 148,
     rating: 4.9,
     certifications: {
@@ -314,7 +316,7 @@ export const RESPONDERS: Record<'male' | 'female', ResponderProfile> = {
     badgeId: 'MF-Z1-018',
     vehiclePlate: '59-P2 819.04',
     vehicleModel: 'Honda Vision — Xe trực cứu hộ',
-    photo: '/src/assets/images/responder_portrait_linh_1795667027497.jpg',
+    photo: `${imageBase}responder_portrait_linh_1795667027497.jpg`,
     completedJobs: 112,
     rating: 5.0,
     certifications: {
