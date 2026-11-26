@@ -1,0 +1,6 @@
+{
+  "name": "MotoFix — Cứu hộ xe máy sinh viên",
+  "description": "Trạm cứu hộ xe máy sinh viên gần trường — báo giá minh bạch trước khi làm, định danh kỹ thuật viên và theo dõi trực tiếp trong bán kính 1.5 km.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
